@@ -1,0 +1,22 @@
+@sample.txt contains a manhwa chapter in Spanish, where each line is separate thought, speech, narration, etc. bubble.
+
+Things to be aware of:
+
+- The text may include slightly incorrect punctuation, e.g. missing accents, incorrect spelling, or missing capitalization. These must be inferred.
+- The text may include slightly incorrect punctuation, e.g. missing accents, or incorrect spelling
+- The text may include proper nouns that do not have an English or Spanish equivalent
+- The text may have idioms in Spanish that do not have a direct English equivalent
+- Thought, speech, and narration bubbles may be interleaved without any clear delineation
+- The chapter may have multiple scenes involving different characters or story context without clear delineation
+
+Your job is to accurately translate the chapter into English while taking context clues from surrounding bubbles (and the overall story) into account to inform your translation. Retain any line separation from the source (do no collapse lines together in the translation).
+
+Use context clues to deduce:
+
+- Tone of voice/thought
+- Different scenes
+- Who is talking (most scenes involve 2 or more characters talking to each other)
+- Whether a bubble is a thought, speech, or narration bubble
+- Idioms that may not have a direct English equivalent; in these cases try your best to find the closest English equivalent. You may need to reword or change the semantics slightly.
+
+Output your translation to @sample-translated.txt
